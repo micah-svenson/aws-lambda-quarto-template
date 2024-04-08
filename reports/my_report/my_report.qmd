@@ -1,0 +1,13 @@
+---
+title: "my_report"
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+```{python}
+from my_package.example import example_func
+
+example_func()
+```

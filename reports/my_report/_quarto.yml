@@ -1,0 +1,9 @@
+project:
+  title: "my_report"
+  output-dir: ../../_output
+  pre-render:
+    - scripts/get_data.py
+
+
+
+

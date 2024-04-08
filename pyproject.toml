@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools >= 65.0", "setuptools_scm[toml]>=7.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my_package"
+description = "A place to organize code related to generating the report"
+readme="README.md"
+requires-python = ">= 3.10"
+dynamic = ["version"]
+dependencies = [
+    "pandas",
+    "numpy",
+    "plotly"
+]

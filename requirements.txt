@@ -1,0 +1,6 @@
+-e .
+ipykernel
+pandas
+numpy
+plotly
+jupyter
